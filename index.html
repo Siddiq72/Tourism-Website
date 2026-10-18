@@ -3,15 +3,15 @@
 
 <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description" content="Explore India's top tourist destinations including the Taj Mahal, Golden Temple, Mysore Palace, and Varanasi." />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+    <meta name="description" content="Explore India's top tourist destinations with full mobile-first responsive layout, touch-optimized ergonomics, and monument galleries." />
     <title>Tourism Website - Discover India</title>
 
-    <!-- Bootstrap 4.6.2 CSS (Modern, reliable jsDelivr CDN) -->
+    <!-- Bootstrap 4.6.2 CSS (Reliable jsDelivr CDN) -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
         integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous" />
 
-    <!-- Production Custom CSS -->
+    <!-- Mobile-First Responsive Stylesheet -->
     <link rel="stylesheet" href="style.css" />
 
     <!-- Bootstrap Dependencies -->
@@ -47,7 +47,7 @@
                 <h2 class="favourite-places-heading">Favourite Places</h2>
 
                 <!-- Taj Mahal Card -->
-                <article class="favourite-place-card-container d-flex flex-row align-items-center"
+                <article class="favourite-place-card-container"
                     role="button" tabindex="0"
                     onclick="display('sectionTajmahaldetailedview')"
                     onkeydown="if(event.key==='Enter'||event.key===' '){display('sectionTajmahaldetailedview');event.preventDefault();}">
@@ -58,11 +58,11 @@
                         </p>
                     </div>
                     <img src="https://d2clawv67efefq.cloudfront.net/ccbp-static-website/tajmahal-img.png"
-                        class="favourite-place-card-image" alt="Taj Mahal, Agra" loading="lazy" />
+                        class="favourite-place-card-image" alt="Taj Mahal, Agra" width="72" height="90" loading="lazy" />
                 </article>
 
                 <!-- Golden Temple Card -->
-                <article class="favourite-place-card-container d-flex flex-row align-items-center"
+                <article class="favourite-place-card-container"
                     role="button" tabindex="0"
                     onclick="display('sectionGoldentempledetailedview')"
                     onkeydown="if(event.key==='Enter'||event.key===' '){display('sectionGoldentempledetailedview');event.preventDefault();}">
@@ -73,11 +73,11 @@
                         </p>
                     </div>
                     <img src="https://d2clawv67efefq.cloudfront.net/ccbp-static-website/golden-temple-img.png"
-                        class="favourite-place-card-image" alt="Golden Temple, Amritsar" loading="lazy" />
+                        class="favourite-place-card-image" alt="Golden Temple, Amritsar" width="72" height="90" loading="lazy" />
                 </article>
 
                 <!-- Mysore Palace Card -->
-                <article class="favourite-place-card-container d-flex flex-row align-items-center"
+                <article class="favourite-place-card-container"
                     role="button" tabindex="0"
                     onclick="display('sectionMysorepalacedetailedview')"
                     onkeydown="if(event.key==='Enter'||event.key===' '){display('sectionMysorepalacedetailedview');event.preventDefault();}">
@@ -88,11 +88,11 @@
                         </p>
                     </div>
                     <img src="https://d2clawv67efefq.cloudfront.net/ccbp-static-website/mysore-palace-img.png"
-                        class="favourite-place-card-image" alt="Mysore Palace, Karnataka" loading="lazy" />
+                        class="favourite-place-card-image" alt="Mysore Palace, Karnataka" width="72" height="90" loading="lazy" />
                 </article>
 
                 <!-- Varanasi Temple Card -->
-                <article class="favourite-place-card-container d-flex flex-row align-items-center"
+                <article class="favourite-place-card-container"
                     role="button" tabindex="0"
                     onclick="display('sectionVaranasitempledetailedview')"
                     onkeydown="if(event.key==='Enter'||event.key===' '){display('sectionVaranasitempledetailedview');event.preventDefault();}">
@@ -103,10 +103,10 @@
                         </p>
                     </div>
                     <img src="https://d2clawv67efefq.cloudfront.net/ccbp-static-website/varanasi-temple-img.png"
-                        class="favourite-place-card-image" alt="Kashi Vishwanath Temple, Varanasi" loading="lazy" />
+                        class="favourite-place-card-image" alt="Kashi Vishwanath Temple, Varanasi" width="72" height="90" loading="lazy" />
                 </article>
 
-                <button type="button" class="btn btn-dark btn-back buttun" onclick="display('sectionHome')">
+                <button type="button" class="btn-back buttun" onclick="display('sectionHome')">
                     Back
                 </button>
             </div>
@@ -159,7 +159,7 @@
                         </p>
                     </div>
                 </div>
-                <button type="button" class="btn btn-dark btn-back buttun" onclick="display('sectionFavoriteplaces')">
+                <button type="button" class="btn-back buttun" onclick="display('sectionFavoriteplaces')">
                     Back
                 </button>
             </div>
@@ -210,7 +210,7 @@
                         </p>
                     </div>
                 </div>
-                <button type="button" class="btn btn-dark btn-back buttun" onclick="display('sectionFavoriteplaces')">
+                <button type="button" class="btn-back buttun" onclick="display('sectionFavoriteplaces')">
                     Back
                 </button>
             </div>
@@ -264,7 +264,7 @@
                         </p>
                     </div>
                 </div>
-                <button type="button" class="btn btn-dark btn-back buttun" onclick="display('sectionFavoriteplaces')">
+                <button type="button" class="btn-back buttun" onclick="display('sectionFavoriteplaces')">
                     Back
                 </button>
             </div>
@@ -317,7 +317,7 @@
                         </p>
                     </div>
                 </div>
-                <button type="button" class="btn btn-dark btn-back buttun" onclick="display('sectionFavoriteplaces')">
+                <button type="button" class="btn-back buttun" onclick="display('sectionFavoriteplaces')">
                     Back
                 </button>
             </div>
@@ -326,7 +326,6 @@
 
     <!-- Reliable Vanilla JS Navigation Controller (Zero external dependencies, prevents FOUC) -->
     <script>
-        // Production resilient display function
         function display(sectionId) {
             const sections = document.querySelectorAll('[id^="section"]');
             sections.forEach(function (sec) {
@@ -341,7 +340,7 @@
             window.scrollTo({ top: 0, behavior: 'smooth' });
         }
 
-        // Initialize visibility on DOMContentLoaded
+        // Initialize display on DOM ready
         document.addEventListener('DOMContentLoaded', function () {
             display('sectionHome');
         });
